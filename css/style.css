@@ -17,9 +17,11 @@ body {
 }
 main {
   display: flex;
-  justify-content: center;
+
+  flex-direction: column;
+  align-items: center;
 }
-.top-container {
+.container {
   width: 870px;
   background-color: #ffffff;
   padding: 30px 30px;
@@ -125,9 +127,26 @@ top-containetr
   font-style: normal;
   font-weight: 500;
 }
-.blog-pera {
+.blog-author {
   margin-top: 0;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
+  color: #9f9f9f;
+}
+.blog-author a {
+  text-decoration: none;
+  color: #562eff;
+}
+/* Latest Courses */
+.courses {
+  display: flex;
+  justify-content: center;
+}
+.course {
+  margin-left: 53px;
+}
+.course img {
+  width: 224px;
+  height: 104px;
 }
