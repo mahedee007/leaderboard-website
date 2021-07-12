@@ -150,3 +150,50 @@ top-containetr
   width: 224px;
   height: 104px;
 }
+.course-name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.0336px;
+  color: #1e1e1e;
+  margin-bottom: 7px;
+}
+.course-author {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14.6913px;
+  color: #ed6b4f;
+  margin-top: 0;
+}
+.course-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-star {
+  width: 11px;
+  height: 11px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.blank {
+  color: #aeaeae;
+}
+.rating {
+  padding-left: 4px;
+}
+.course-duration {
+  background-color: #ffe4e8;
+  padding: 3px 5px;
+  border-radius: 20px;
+}
+.fa-clock {
+  color: #ed6b4f;
+}
+.course-duration {
+  color: #ed6b4f;
+}
+/* Mobile responsive */
