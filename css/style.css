@@ -197,3 +197,47 @@ top-containetr
   color: #ed6b4f;
 }
 /* Mobile responsive */
+@media only screen and (max-width: 688px) {
+  .logo-name {
+    padding-left: 5px;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+  }
+  .nav-menu {
+    margin-left: 0;
+    width: 100%;
+  }
+  li a {
+    padding-right: 18px;
+  }
+  .container {
+    width: 100%;
+  }
+  .players,
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player,
+  .blog {
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    text-align: center;
+  }
+  .blog-title {
+    text-align: center;
+  }
+  .courses {
+    flex-direction: column;
+    text-align: center;
+  }
+  .course-info {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
