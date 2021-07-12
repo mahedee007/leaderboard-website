@@ -1,0 +1,76 @@
+/* ----------
+Utilities
+------------ */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f1ff;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.top-container {
+  width: 870px;
+  background-color: #ffffff;
+  padding: 30px 30px;
+  margin-top: 36px;
+}
+
+/* header section */
+.nav-items {
+  background-color: #562eff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu {
+  margin: 16px 150px 16px 150px;
+}
+header img {
+  width: 40.42px;
+  height: 51px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+li a {
+  font-weight: normal;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 36px;
+}
+li img {
+  width: 51px;
+  height: 51px;
+}
+
+/*------------- 
+top-containetr 
+--------------*/
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+}
+.player {
+  display: flex;
+  align-items: center;
+}
+.player img {
+  width: 56px;
+  height: 56px;
+}
+.player-name {
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 18px;
+}
